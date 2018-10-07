@@ -10,6 +10,10 @@ The virtual machine created by Vagrant will work as a NAT gateway for your physi
 
 ## Documentation:
 
+- Dependencies:
+  - Virtualbox 
+  - Vagrant 
+  - Oracle VM VirtualBox Extension Pack
 - connect your USB dongle (Asus AC51) in any available USB port on your computer
 - rename and change the values in wifi-credentials.yml.example providing your SSID and passphrase
   - `mv wifi-credentials.yml.example wifi-crendentials.yml`
