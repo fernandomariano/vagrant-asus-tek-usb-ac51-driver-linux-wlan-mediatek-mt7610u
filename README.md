@@ -1,5 +1,7 @@
 # Vagrant: Asus USB AC51 (mediatek-mt7610u) - Linux driver
 
+Note: Since Kernel 4.19 there is official support for mt7610u, so if you came here struggling to install this driver on your distro you should try new distribution like Fedora 30 or Ubuntu 19.04.
+
 ## About this project:
 
 This vagrant file will compile a new Linux Kernel and an open-source Linux driver for USB AC 51 Asus available on GitHub or Bitbucket. Although this wireless device is advertised as Linux supported on its box, it will absolutely not run in modern Linux distributions. According to Asus, this wifi should work on Kernel 2.4 and 2.6, but I couldn't make it work.
